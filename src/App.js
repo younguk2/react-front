@@ -1,8 +1,16 @@
-//import logo from './logo.svg';
-//import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import HomeView from './views/HomeView';
 
 function App() {
-	return <div>App</div>;
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<HomeView />} />
+			</Routes>
+		</BrowserRouter>
+	);
 }
 
 export default App;
