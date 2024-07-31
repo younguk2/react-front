@@ -18,7 +18,7 @@ const portText = [
 		img: port01,
 		code: 'https://map.naver.com/p/',
 		view: 'https://map.naver.com/p/',
-		name: '김상* 포트폴리오',
+		name: '',
 	},
 	{
 		num: '02',
@@ -27,16 +27,16 @@ const portText = [
 		img: port02,
 		code: 'https://map.kakao.com/?q=',
 		view: 'https://map.kakao.com/?q=',
-		name: '천설* 포트폴리오',
+		name: '',
 	},
 	{
 		num: '03',
-		title: '3',
+		title: '서울시 S-Map',
 		desc: '',
 		img: port03,
-		code: 'https://github.com/seolhee313/PORTFOLIO-REACT',
-		view: 'https://portfolio-313.web.app/',
-		name: '천설* 포트폴리오',
+		code: 'https://smap.seoul.go.kr/',
+		view: 'https://smap.seoul.go.kr/',
+		name: '',
 	},
 	{
 		num: '04',
@@ -45,7 +45,7 @@ const portText = [
 		img: port04,
 		code: 'https://github.com/dlgnsrb227/portfolio-next',
 		view: 'https://hoongportfolio-next.netlify.app/',
-		name: '이훈* 포트폴리오',
+		name: '',
 	},
 	{
 		num: '05',
@@ -54,7 +54,7 @@ const portText = [
 		img: port05,
 		code: '/',
 		view: 'https://junseungpark.github.io/portfolio/index3.html',
-		name: '박준* 포트폴리오',
+		name: '',
 	},
 	{
 		num: '06',
@@ -63,7 +63,7 @@ const portText = [
 		img: port06,
 		code: '/',
 		view: 'https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html',
-		name: '포트폴리오',
+		name: '',
 	},
 	{
 		num: '07',
@@ -72,7 +72,7 @@ const portText = [
 		img: port07,
 		code: '/',
 		view: 'https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html',
-		name: '포트폴리오',
+		name: '',
 	},
 	{
 		num: '08',
@@ -81,7 +81,7 @@ const portText = [
 		img: port08,
 		code: '/',
 		view: 'https://webstoryboy.github.io/port2023/portfolio-student/HyunroKim/index.html',
-		name: '포트폴리오',
+		name: '',
 	},
 	{
 		num: '09',
@@ -90,7 +90,7 @@ const portText = [
 		img: port09,
 		code: '/',
 		view: 'https://webstoryboy.github.io/port2023/portfolio-student/ChoJaeHyung/index.html',
-		name: '포트폴리오',
+		name: '',
 	},
 	{
 		num: '10',
@@ -99,7 +99,7 @@ const portText = [
 		img: port10,
 		code: '/',
 		view: 'https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html',
-		name: '포트폴리오',
+		name: '',
 	},
 ];
 const Port = () => {

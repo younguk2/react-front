@@ -3,38 +3,38 @@ import React from 'react';
 const footerText = [
 	{
 		title: 'youtube',
-		desc: '유튜브에 오시면 더 많은 강의를 볼 수 있습니다.',
-		link: 'https://www.youtube.com/@Webstoryboy',
+		desc: '올포랜드 유튜브에 오시면 더 자료를 볼 수 있습니다.',
+		link: '',
 	},
 	{
 		title: 'github',
 		desc: '깃헙에 오시면 더 많은 소스를 볼 수 있습니다.',
-		link: 'https://github.com/webstoryboy',
+		link: 'https://github.com/younguk2/react-front',
 	},
 	{
-		title: 'blog',
-		desc: '블러그에 오시면 더 많은 정보를 볼 수 있습니다.',
-		link: 'https://webstoryboy.co.kr',
+		title: 'company',
+		desc: '올포랜드에 홈페이지에 오시면 더 많은 정보를 볼 수 있습니다.',
+		link: '',
 	},
 	{
-		title: 'gsap',
-		desc: 'GSAP에 오시면 더 많은 강의를 볼 수 있습니다.',
-		link: 'https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq',
+		title: 'home',
+		desc: '집가고 시퍼',
+		link: '',
 	},
 	{
-		title: 'react',
-		desc: '리액트로 만든 사이트를 같이 만들어 봅니다.',
-		link: 'https://github.com/webstoryboy/port2023-react',
+		title: 'status',
+		desc: '피곤해',
+		link: '',
 	},
 	{
-		title: 'vue',
-		desc: '뷰로 만든 사이트를 같이 만들어 봅니다.',
-		link: 'https://github.com/webstoryboy/port2023-vue',
+		title: 'please',
+		desc: '살려줘',
+		link: '',
 	},
 	{
-		title: 'next',
-		desc: '넥스트로 만든 사이트를 같이 만들어 봅니다.',
-		link: 'https://github.com/webstoryboy/port2023-next',
+		title: 'wants',
+		desc: '달달한거 땡기네',
+		link: '',
 	},
 ];
 const Footer = () => {
@@ -42,7 +42,7 @@ const Footer = () => {
 		<footer id='footer' role='contentinfo'>
 			<div className='footer__inner'>
 				<div className='footer__text'>
-					<span>webstoryboy</span>
+					<span>ALlForLand</span>
 					<span>© webs</span>
 				</div>
 				<div className='footer__info'>
@@ -65,7 +65,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='footer__right'>
-					© 2023 webstoryboy
+					© 2024 neostory
 					<br />이 사이트는 리액트를 이용하여 제작하였습니다.
 				</div>
 			</div>
