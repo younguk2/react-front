@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 
 const headerNav = [
 	{
-		title: 'intro',
+		title: '개요',
 		url: '#intro',
 	},
 	{
-		title: 'skill',
+		title: '목표',
 		url: '#skill',
 	},
 	{
-		title: 'site',
+		title: '협업',
 		url: '#site',
 	},
 	{
-		title: 'portfolio',
+		title: '지도',
 		url: '#port',
 	},
 	{
-		title: 'contact',
+		title: '연락',
 		url: '#contact',
 	},
 ];
@@ -32,7 +32,7 @@ const Header = () => {
 			<div className='header__inner'>
 				<div className='header__logo'>
 					<a href='/'>
-						MapService <em>react.js</em>
+						나의 지도서비스 <em>AllForland</em>
 					</a>
 				</div>
 				<nav className={`header__nav ${show ? 'show' : ''}`} role='navigation' aria-label='메인 메뉴'>

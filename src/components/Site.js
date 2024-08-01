@@ -5,28 +5,28 @@ const siteText = [
 		title: 'GIS를 이용한 사례1',
 		code: '',
 		view: '',
-		info: ['site coding', 'production period : two days', 'use stack : HTML5/CSS3, CSS Variable, Vite'],
+		info: ['', '', ''],
 	},
 	{
-		text: ['make', 'site compliant with', 'react.js'],
+		text: ['make', 'site compliant with', 'TMS'],
 		title: 'GIS를 이용한 사례2',
 		code: '',
 		view: '',
-		info: ['site coding', 'production period : two days', 'use stack : HTML5/CSS3, CSS Variable, Vite'],
+		info: ['', '', ''],
 	},
 	{
 		text: ['make', 'site compliant with', 'v-World'],
 		title: 'GIS를 이용한 사례3',
 		code: '',
 		view: '',
-		info: ['site coding', 'production period : two days', 'use stack : HTML5/CSS3, Scss Variable, vue'],
+		info: ['', '', ''],
 	},
 	{
 		text: ['make', 'site compliant with', 'QGIS'],
 		title: 'GIS를 이용한 사례4',
 		code: '',
 		view: '',
-		info: ['site coding', 'production period : two days', 'use stack : HTML5/CSS3, Scss Variable, next.js'],
+		info: ['', '', ''],
 	},
 ];
 const Site = () => {
