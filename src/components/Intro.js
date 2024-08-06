@@ -3,7 +3,7 @@ import about from '../assets/img/about.jpg';
 
 const introText = {
 	title: 'GIS SERVICE',
-	desc: ['GIS 개발의 시작', '', '집가고 싶어'],
+	desc: ['GIS 개발의 시작', '', ''],
 };
 const Intro = () => {
 	return (
