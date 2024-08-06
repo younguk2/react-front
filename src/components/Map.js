@@ -40,69 +40,15 @@ const portText = [
 	},
 	{
 		num: '04',
-		title: '4',
+		title: 'v-World',
 		desc: '',
 		img: port04,
-		code: 'https://github.com/dlgnsrb227/portfolio-next',
-		view: 'https://hoongportfolio-next.netlify.app/',
-		name: '',
-	},
-	{
-		num: '05',
-		title: '5',
-		desc: '5',
-		img: port05,
-		code: '/',
-		view: 'https://junseungpark.github.io/portfolio/index3.html',
-		name: '',
-	},
-	{
-		num: '06',
-		title: '6',
-		desc: '6',
-		img: port06,
-		code: '/',
-		view: 'https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html',
-		name: '',
-	},
-	{
-		num: '07',
-		title: '7',
-		desc: '7',
-		img: port07,
-		code: '/',
-		view: 'https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html',
-		name: '',
-	},
-	{
-		num: '08',
-		title: '8',
-		desc: '8',
-		img: port08,
-		code: '/',
-		view: 'https://webstoryboy.github.io/port2023/portfolio-student/HyunroKim/index.html',
-		name: '',
-	},
-	{
-		num: '09',
-		title: '9',
-		desc: '9',
-		img: port09,
-		code: '/',
-		view: 'https://webstoryboy.github.io/port2023/portfolio-student/ChoJaeHyung/index.html',
-		name: '',
-	},
-	{
-		num: '10',
-		title: '10',
-		desc: '10',
-		img: port10,
-		code: '/',
-		view: 'https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html',
+		code: 'https://map.vworld.kr/map/dtkmap.do?mode=MAPW201',
+		view: 'https://www.vworld.kr/dev/v4dv_opnws3dmap2guide_s001.do',
 		name: '',
 	},
 ];
-const Port = () => {
+const Map = () => {
 	return (
 		<section id='port'>
 			<div className='port__inner'>
@@ -129,4 +75,4 @@ const Port = () => {
 	);
 };
 
-export default Port;
+export default Map;
